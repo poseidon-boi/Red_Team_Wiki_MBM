@@ -23,6 +23,10 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	line-height: 1.5;
 	margin: 0;
+	background-image: url(../images/h1_background.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 h1 {
@@ -55,6 +59,15 @@ main h2 {
 	border-bottom: 2px blueviolet solid;
 	/* border-radius: 0.7rem; */
 	/* color: rgb(0, 65, 0); */
+}
+
+main h3 {
+	text-indent: 1rem;
+	list-style-type: disc;
+	background-color: rgba(137, 43, 226, 0.431);
+	border-radius: 1rem;
+	/* position: sticky;
+	top: calc(40px + 1.2rem); */
 }
 
 article {
@@ -91,7 +104,8 @@ p {
 	left: 0;
 	right: 0;
 	font-size: 1.1rem;
-	background-color: rgb(75, 58, 91);
+	/* background-color: rgb(75, 58, 91); */
+	background-color: black;
 	text-align: center;
 	position: fixed;
 	z-index: 1;
@@ -225,8 +239,9 @@ main {
 .tableOfContents {
 	/* text-align: center; */
 	padding: 0.5rem;
-	/* border-radius: 5px; */
+	border-radius: 0.5rem;
 	/* background-color: rgba(240, 248, 255, 0.423); */
+	background-color: rgba(245, 245, 245, 0.579);
 	height: 70vh;
 	position: sticky;
 	top: 13vh;

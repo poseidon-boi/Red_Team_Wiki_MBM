@@ -34,7 +34,7 @@ h1 {
 	font-size: 4rem;
 	text-align: center;
 	text-transform: uppercase;
-	background-image: url(../images/h1_background.jpg);
+	background-image: url(../images/body_background.jpg);
 	background-color: rgba(255, 255, 255, 0.385);
 	background-blend-mode: lighten;
 	background-size: cover;
@@ -278,34 +278,48 @@ footer .social-icons img {
 	margin-top: 20vw;
 	position: sticky;
 	/* background-blend-mode: ; */
-	/* background-image: url(./Wave-Transparent.png); */
+	/* background-image: url(../images/body_background.jpg); */
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
+	background-color: transparent;
+	color: whitesmoke;
+	top: 3.1rem;
 }
 
 #slide1 {
 	margin: 0;
-	top: 3.1rem;
+	/* top: 3.1rem; */
 	height: 100vh;
-	background-color: aquamarine;
+	background-attachment: scroll;
+	/* background-color: aquamarine; */
+	background-image: url(../images/Titled_Artwork.png);
 }
 
 #slide2 {
-	top: calc(3.1rem + 15vh);
+	/* top: calc(3.1rem + 15vh); */
 	height: 85vh;
-	background-color: aqua;
+	/* background-color: aqua; */
 }
 
 #slide3 {
-	top: calc(3.1rem + 30vh);
+	/* top: calc(3.1rem + 30vh); */
 	height: 70vh;
-	background-color: lightskyblue;
+	/* background-color: lightskyblue; */
 }
 
 #slide4 {
-	top: calc(3.1rem + 45vh);
+	/* top: calc(3.1rem + 45vh); */
 	height: 55vh;
-	background-color: deepskyblue;
+	/* background-color: deepskyblue; */
+}
+
+.slide p {
+	background-color: rgba(1, 74, 1, 0.728);
+	margin: 2vw;
+	border-radius: 1vw;
+	margin-left: 35vw;
+	/* backdrop-filter: blur(5px); */
 }
 
 .counter {
