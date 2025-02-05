@@ -298,19 +298,19 @@ footer .social-icons img {
 
 #slide2 {
 	/* top: calc(3.1rem + 15vh); */
-	height: 85vh;
+	height: 100vh;
 	/* background-color: aqua; */
 }
 
 #slide3 {
 	/* top: calc(3.1rem + 30vh); */
-	height: 70vh;
+	height: 100vh;
 	/* background-color: lightskyblue; */
 }
 
 #slide4 {
 	/* top: calc(3.1rem + 45vh); */
-	height: 55vh;
+	height: 100vh;
 	/* background-color: deepskyblue; */
 }
 
