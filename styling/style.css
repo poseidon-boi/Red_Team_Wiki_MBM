@@ -560,8 +560,12 @@ td {
 	border-bottom: 1px solid black;
 }
 
-td:first-child {
+#rxlr-table td:first-child {
 	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
 }
 
 td:last-child {
