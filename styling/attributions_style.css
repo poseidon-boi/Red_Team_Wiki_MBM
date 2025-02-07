@@ -13,12 +13,13 @@ html {
 }
 
 ::selection {
-	background-color: rgb(122, 40, 199);
+	background-color: #0a7c63;
 	color: white;
 }
 
 body {
-	background-color: rgb(205, 249, 205);
+	/* background-color: rgb(205, 249, 205); */
+	background-color: #97ba8b;
 	/* background-color: lightgreen; */
 	font-family: "Times New Roman", Times, serif;
 	line-height: 1.5;
@@ -52,7 +53,8 @@ main h2 {
 	/* top: calc(40px + 1rem); */
 	text-indent: 1rem;
 	font-size: 2rem;
-	border-bottom: 2px blueviolet solid;
+	/* border-bottom: 2px blueviolet solid; */
+	border-bottom: 2px #279f73 solid;
 	/* border-radius: 0.7rem; */
 	/* color: rgb(0, 65, 0); */
 }
@@ -91,7 +93,8 @@ p {
 	left: 0;
 	right: 0;
 	font-size: 1.1rem;
-	background-color: rgb(75, 58, 91);
+	/* background-color: rgb(75, 58, 91); */
+	background-color: #1a3636;
 	text-align: center;
 	position: fixed;
 	z-index: 1;
@@ -120,7 +123,8 @@ p {
 	display: none;
 	left: 50%;
 	transform: translateX(-50%);
-	background-color: rgb(52, 40, 63);
+	/* background-color: rgb(52, 40, 63); */
+	background-color: #1a3636;
 	opacity: 0.9;
 	border: 1px solid whitesmoke;
 	padding: 0;
@@ -131,13 +135,15 @@ p {
 .navbar li a {
 	display: inline-block;
 	padding: 0.8rem;
-	color: gold;
+	/* color: gold; */
+	color: #d6bd98;
 	text-decoration: none;
 }
 
 .navbar a:hover,
 .navbar a:focus {
-	background-color: blueviolet;
+	/* background-color: blueviolet; */
+	background-color: #40534c;
 	/* color: rgb(51, 40, 61); */
 	cursor: pointer;
 }
@@ -210,7 +216,7 @@ main {
 }
 
 .attribution-container {
-	background-color: whitesmoke;
+	background-color: lightgoldenrodyellow;
 	border-radius: 1vw;
 	box-shadow: 0 0 8px black;
 }
@@ -255,7 +261,8 @@ footer {
 	padding: 1rem;
 	/* height: 40vh; */
 	/* display: block; */
-	background-color: rgb(75, 58, 91);
+	/* background-color: rgb(75, 58, 91); */
+	background-color: #1a3636;
 }
 
 footer .social-icons a:hover {

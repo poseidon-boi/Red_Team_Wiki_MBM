@@ -122,7 +122,7 @@ const initApp = () => {
 					return;
 				}
 				title.style.borderLeftStyle = "groove";
-				title.style.borderLeftColor = "blueviolet";
+				title.style.borderLeftColor = "#279f73";
 				title.style.borderLeftWidth = "5px";
 				// title.style.color = "black";
 				// title.style.fontWeight = "bold";

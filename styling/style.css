@@ -13,12 +13,12 @@ html {
 }
 
 ::selection {
-	background-color: rgb(122, 40, 199);
+	background-color: #0a7c63;
 	color: white;
 }
 
 body {
-	background-color: rgb(205, 249, 205);
+	/* background-color: rgb(0, 52, 0); */
 	/* background-color: lightgreen; */
 	font-family: "Times New Roman", Times, serif;
 	line-height: 1.5;
@@ -56,7 +56,8 @@ main h2 {
 	/* top: calc(40px + 1rem); */
 	text-indent: 1rem;
 	font-size: 2rem;
-	border-bottom: 2px blueviolet solid;
+	/* border-bottom: 2px blueviolet solid; */
+	border-bottom: 2px #279f73 solid;
 	/* border-radius: 0.7rem; */
 	/* color: rgb(0, 65, 0); */
 }
@@ -105,7 +106,7 @@ p {
 	right: 0;
 	font-size: 1.1rem;
 	/* background-color: rgb(75, 58, 91); */
-	background-color: black;
+	background-color: #1a3636;
 	text-align: center;
 	position: fixed;
 	z-index: 1;
@@ -134,7 +135,8 @@ p {
 	display: none;
 	left: 50%;
 	transform: translateX(-50%);
-	background-color: rgb(52, 40, 63);
+	/* background-color: rgb(52, 40, 63); */
+	background-color: #1a3636;
 	opacity: 0.9;
 	border: 1px solid whitesmoke;
 	padding: 0;
@@ -145,14 +147,16 @@ p {
 .navbar li a {
 	display: inline-block;
 	padding: 0.8rem;
-	color: gold;
+	/* color: gold; */
+	color: #d6bd98;
 	text-decoration: none;
 }
 
 .navbar a:hover,
 .navbar a:focus {
-	background-color: blueviolet;
+	/* background-color: blueviolet; */
 	/* color: rgb(51, 40, 61); */
+	background-color: #40534c;
 	cursor: pointer;
 }
 
@@ -284,7 +288,8 @@ main {
 
 .pageContent {
 	margin: 0 3vw 0 0;
-	background-color: #e7d9ea;
+	/* background-color: #eae0c2; */
+	background-color: lightgoldenrodyellow;
 	border-radius: 10px;
 	padding: 0 2vw;
 	box-shadow: 0 0 5px black;
@@ -334,7 +339,8 @@ footer {
 	padding: 1rem;
 	/* height: 40vh; */
 	/* display: block; */
-	background-color: rgb(75, 58, 91);
+	/* background-color: rgb(75, 58, 91); */
+	background-color: #1a3636;
 }
 
 footer .social-icons a:hover {
@@ -469,7 +475,8 @@ footer .social-icons img {
 .bottom-nav a {
 	/* display: inline-block; */
 	text-decoration: none;
-	color: gold;
+	/* color: gold; */
+	color: #d6bd98;
 	/* background-color: blueviolet; */
 	/* padding: 1rem; */
 	/* box-sizing: border-box; */
@@ -480,7 +487,8 @@ footer .social-icons img {
 }
 
 .box {
-	background-color: blueviolet;
+	/* background-color: blueviolet; */
+	background-color: #1a3636;
 	/* height: 60px; */
 	padding: 1.22rem;
 	/* border-radius: 3px; */
@@ -496,17 +504,19 @@ footer .social-icons img {
 }
 
 .left-arrow {
-	border-right: 2rem solid blueviolet;
+	/* border-right: 2rem solid blueviolet; */
+	border-right: 2rem solid #1a3636;
 }
 
 .right-arrow {
-	border-left: 2rem solid blueviolet;
+	/* border-left: 2rem solid blueviolet; */
+	border-left: 2rem solid #1a3636;
 }
 
 .bottom-nav a:hover {
 	/* border: 3px blueviolet solid; */
 	/* box-shadow: 0 0 10px blueviolet; */
-	color: aquamarine;
+	color: gold;
 }
 
 .bottom-nav ul li {
