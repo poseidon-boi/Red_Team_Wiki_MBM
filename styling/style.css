@@ -38,12 +38,14 @@ h1 {
 	text-align: center;
 	/* text-transform: uppercase; */
 	background-image: url(../images/h1_background.jpg);
-	background-color: rgba(255, 255, 255, 0.385);
+	/* background-color: rgba(255, 255, 255, 0.385); */
 	background-blend-mode: lighten;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
+	color: whitesmoke;
+	text-shadow: 5px 5px 0 green;
 	/* color: rgb(0, 65, 0); */
 	/* display: block; */
 	/* vertical-align: middle; */
@@ -245,7 +247,8 @@ main {
 	padding: 0.5rem;
 	border-radius: 0.5rem;
 	/* background-color: rgba(240, 248, 255, 0.423); */
-	background-color: rgba(245, 245, 245, 0.579);
+	/* background-color: rgba(245, 245, 245, 0.233); */
+	backdrop-filter: blur(1px);
 	height: 70vh;
 	position: sticky;
 	top: 13vh;
@@ -272,7 +275,7 @@ main {
 	display: block;
 	padding: 0.5rem;
 	text-decoration: none;
-	color: black;
+	color: whitesmoke;
 	/* border-bottom: 1px gray solid; */
 }
 

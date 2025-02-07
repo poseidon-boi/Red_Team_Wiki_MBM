@@ -21,6 +21,10 @@ body {
 	/* background-color: rgb(205, 249, 205); */
 	background-color: #97ba8b;
 	/* background-color: lightgreen; */
+	background-image: url(../images/h1_background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 	font-family: "Times New Roman", Times, serif;
 	line-height: 1.5;
 	margin: 0;
@@ -35,12 +39,14 @@ h1 {
 	text-align: center;
 	/* text-transform: uppercase; */
 	background-image: url(../images/h1_background.jpg);
-	background-color: rgba(255, 255, 255, 0.385);
-	background-blend-mode: lighten;
+	background-color: rgba(0, 0, 0, 0.207);
+	background-blend-mode: darken;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
+	color: whitesmoke;
+	text-shadow: 5px 5px 0 green;
 	/* color: rgb(0, 65, 0); */
 	/* display: block; */
 	/* vertical-align: middle; */
@@ -397,7 +403,8 @@ footer .social-icons img {
 .bottom-nav a {
 	/* display: inline-block; */
 	text-decoration: none;
-	color: gold;
+	/* color: gold; */
+	color: #d6bd98;
 	/* background-color: blueviolet; */
 	/* padding: 1rem; */
 	/* box-sizing: border-box; */
@@ -408,7 +415,8 @@ footer .social-icons img {
 }
 
 .box {
-	background-color: blueviolet;
+	/* background-color: blueviolet; */
+	background-color: #1a3636;
 	/* height: 60px; */
 	padding: 1.22rem;
 	/* border-radius: 3px; */
@@ -424,11 +432,13 @@ footer .social-icons img {
 }
 
 .left-arrow {
-	border-right: 2rem solid blueviolet;
+	/* border-right: 2rem solid blueviolet; */
+	border-right: 2rem solid #1a3636;
 }
 
 .right-arrow {
-	border-left: 2rem solid blueviolet;
+	/* border-left: 2rem solid blueviolet; */
+	border-left: 2rem solid #1a3636;
 }
 
 .bottom-nav a:hover {
