@@ -116,7 +116,8 @@ const initApp = () => {
 			}
 			titles.forEach((title) => {
 				if (
-					heading.textContent.toLowerCase() !== title.textContent.toLowerCase()
+					heading.textContent.toLowerCase().trim() !==
+					title.textContent.toLowerCase().trim()
 				) {
 					title.style.borderLeftWidth = "0";
 					return;
