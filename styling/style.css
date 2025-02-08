@@ -216,7 +216,6 @@ main img {
 figcaption {
 	text-align: center;
 	color: gray;
-	font-style: italic;
 }
 
 .columns {
@@ -609,4 +608,54 @@ th:last-child {
 	box-shadow: inset 0 -1.5rem 0 rgba(78, 213, 150, 0.461);
 	transition-property: box-shadow;
 	transition-duration: 0.8s;
+}
+
+.timeline {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50vh;
+}
+
+.timeline .left-arrow,
+.timeline .right-arrow {
+	display: inline-block;
+}
+
+.timeline .left-arrow:hover,
+.timeline .right-arrow:hover {
+	cursor: pointer;
+}
+
+.timeline-slides {
+	display: flex;
+	/* justify-content: space-around; */
+	/* align-items: center; */
+	overflow-x: clip;
+	/* width: 36vw; */
+	width: 50vw;
+}
+
+.slide-box {
+	padding: 1rem;
+	min-height: 200px;
+	min-width: 230px;
+	margin: 0 1rem;
+	background-color: whitesmoke;
+	border-radius: 1rem;
+	box-shadow: 1rem 1rem 0 seagreen, 0 0 2px black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: transform;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+.slide-box:nth-child(2n) {
+	margin-top: 50px;
+}
+
+.slide-box:nth-child(2n + 1) {
+	margin-bottom: 50px;
 }

@@ -146,4 +146,57 @@ const initApp = () => {
 			i++;
 		});
 	});
+
+	const timelines = document.querySelectorAll(".timeline");
+	timelines.forEach((timeline) => {
+		const maxTransform = parseInt(timeline.getAttribute("max-transform"));
+		console.log(maxTransform);
+		const leftSlideArrow = timeline.querySelector(".left-arrow");
+		const rightSlideArrow = timeline.querySelector(".right-arrow");
+		const slideBoxes = timeline.querySelectorAll(".slide-box");
+		let translation = 0;
+		console.log(timeline);
+		const checkArrow = () => {
+			console.log("Checking arrows");
+			if (translation < maxTransform) {
+				console.log("Making right arrow transparent");
+				rightSlideArrow.style.borderLeftColor = "transparent";
+				rightSlideArrow.style.cursor = "default";
+			} else {
+				rightSlideArrow.style.borderLeftColor = "#1a3636";
+				rightSlideArrow.cursor = "pointer";
+			}
+			if (translation >= 0) {
+				console.log("Making left arrow transparent");
+				leftSlideArrow.style.borderRightColor = "transparent";
+
+				leftSlideArrow.style.cursor = "default";
+			} else {
+				leftSlideArrow.style.borderRightColor = "#1a3636";
+				leftSlideArrow.style.cursor = "pointer";
+			}
+		};
+		checkArrow();
+		rightSlideArrow.addEventListener("click", () => {
+			console.log(translation);
+			if (translation < maxTransform) return;
+			// if (translation < 0) leftSlideArrow.style.display = "inline-block";
+			translation -= 114.5;
+			slideBoxes.forEach((slideBox) => {
+				slideBox.style.transform = "translateX(" + translation + "%)";
+			});
+			checkArrow();
+		});
+		leftSlideArrow.addEventListener("click", () => {
+			console.log(translation);
+			if (translation >= 0) return;
+			// if (translation >= maxTransform)
+			// 	rightSlideArrow.style.display = "inline-block";
+			translation += 114.5;
+			slideBoxes.forEach((slideBox) => {
+				slideBox.style.transform = "translateX(" + translation + "%)";
+			});
+			checkArrow();
+		});
+	});
 };
