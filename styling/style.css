@@ -198,6 +198,8 @@ p {
 	translate: -3px -3px;
 	height: 56px;
 	width: 56px;
+	transition-property: translate, height, width;
+	transition-duration: 0.05s;
 }
 
 figure {
@@ -349,6 +351,8 @@ footer {
 footer .social-icons a:hover {
 	border-radius: 2px;
 	box-shadow: 0 0 8px aliceblue, inset 0 0 8px aliceblue;
+	transition-property: box-shadow;
+	transition-duration: 0.15s;
 }
 
 #insta-link:hover {
@@ -427,6 +431,9 @@ footer .social-icons img {
 
 .fine-print a:hover {
 	color: aquamarine;
+	transition-property: color;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
 }
 
 #loading-screen {
@@ -435,11 +442,12 @@ footer .social-icons img {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgb(205, 249, 205);
+	/* background-color: rgb(205, 249, 205); */
+	background-color: beige;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	z-index: 1000;
+	z-index: 1;
 }
 
 #loader {
@@ -448,7 +456,7 @@ footer .social-icons img {
 	border: 5px solid rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 	/* border-top-color: #3498db; */
-	border-top-color: blueviolet;
+	border-top-color: #279f73;
 	animation: spin 1s ease-in-out infinite;
 }
 
@@ -520,6 +528,9 @@ footer .social-icons img {
 	/* border: 3px blueviolet solid; */
 	/* box-shadow: 0 0 10px blueviolet; */
 	color: lightseagreen;
+	transition-property: color;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
 }
 
 .bottom-nav ul li {
@@ -593,4 +604,7 @@ th:last-child {
 
 .references a:hover {
 	color: seagreen;
+	transition-property: color;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
 }
