@@ -83,6 +83,14 @@ p {
 	text-indent: 2rem;
 }
 
+.oneline {
+	text-indent: 0;
+}
+
+main ol {
+	padding: 0rem 2rem;
+}
+
 .block {
 	width: 200px;
 	height: 200px;
