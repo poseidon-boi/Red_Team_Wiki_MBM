@@ -20,7 +20,7 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	line-height: 1.5;
 	margin: 0;
-	background-image: url(../images/h1_background.jpg);
+	background-image: url(../images/pexels-nandhukumar-3930019.jpg);
 	background-attachment: fixed;
 	/* background-blend-mode: lighten; */
 	background-size: cover;
@@ -30,11 +30,11 @@ body {
 
 h1 {
 	margin-top: 3.1rem;
-	padding: 18vh 0;
+	padding: 40vh 0;
 	font-size: 4rem;
 	text-align: center;
 	text-transform: uppercase;
-	background-image: url(../images/h1_background.jpg);
+	background-image: url(../images/pexels-nandhukumar-3930019.jpg);
 	background-color: rgba(255, 255, 255, 0.073);
 	background-blend-mode: darken;
 	background-size: cover;
@@ -318,7 +318,6 @@ footer .social-icons img {
 	margin: 0;
 	/* top: 3.1rem; */
 	height: 100vh;
-	background-attachment: scroll;
 	/* background-color: aquamarine; */
 	background-image: url(../images/Titled_Artwork.png);
 	background-color: rgba(0, 0, 0, 0.248);
@@ -348,7 +347,7 @@ footer .social-icons img {
 	border-radius: 1vw;
 	/* margin-left: 35vw;
 	margin-right: 10vw; */
-	margin: 15vh 10vw 0 35vw;
+	margin: 10vh 12vw 0 35vw;
 	/* backdrop-filter: blur(5px); */
 }
 

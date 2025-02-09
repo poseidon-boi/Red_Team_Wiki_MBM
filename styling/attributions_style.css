@@ -21,7 +21,7 @@ body {
 	/* background-color: rgb(205, 249, 205); */
 	background-color: #97ba8b;
 	/* background-color: lightgreen; */
-	background-image: url(../images/h1_background.jpg);
+	background-image: url(../images/pexels-nandhukumar-18861237.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -38,7 +38,7 @@ h1 {
 	font-size: 4rem;
 	text-align: center;
 	/* text-transform: uppercase; */
-	background-image: url(../images/h1_background.jpg);
+	background-image: url(../images/pexels-nandhukumar-18861237.jpg);
 	background-color: rgba(0, 0, 0, 0.207);
 	background-blend-mode: darken;
 	background-size: cover;

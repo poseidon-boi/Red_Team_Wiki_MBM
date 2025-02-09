@@ -17,7 +17,7 @@ html {
 body {
 	/* background-color: #eae0c2; */
 	/* background-color: lightgreen; */
-	background-image: url(../images/h1_background.jpg);
+	background-image: url(../images/pexels-nandhukumar-18861238.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	font-family: "Times New Roman", Times, serif;
@@ -33,7 +33,7 @@ h1 {
 	font-size: 4rem;
 	text-align: center;
 	text-transform: uppercase;
-	background-image: url(../images/h1_background.jpg);
+	background-image: url(../images/pexels-nandhukumar-18861238.jpg);
 	background-color: rgba(0, 0, 0, 0.207);
 	background-blend-mode: darken;
 	background-size: cover;
