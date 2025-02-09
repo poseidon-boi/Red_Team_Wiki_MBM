@@ -495,3 +495,7 @@ footer .social-icons img {
 		margin: 1vw 0;
 	}
 }
+
+.oneline {
+	text-indent: 0;
+}
