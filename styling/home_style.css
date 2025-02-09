@@ -30,7 +30,7 @@ body {
 
 h1 {
 	margin-top: 3.1rem;
-	padding: 40vh 0;
+	padding: 39vh 0;
 	font-size: 4rem;
 	text-align: center;
 	text-transform: uppercase;
@@ -314,12 +314,38 @@ footer .social-icons img {
 	top: 3.1rem;
 }
 
+.slide-box {
+	font-size: 1.2rem;
+	position: relative;
+	top: 20vh;
+	background-color: rgb(0, 74, 0);
+	border-radius: 1vw;
+	height: 60vh;
+	overflow: auto;
+	/* margin-left: 35vw;
+	margin-right: 10vw; */
+	margin: 0 12vw 0 35vw;
+	scrollbar-width: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.slide h3 {
+	padding: 1rem;
+}
+
+.slide p {
+	padding: 1rem;
+}
+
 #slide1 {
 	margin: 0;
 	/* top: 3.1rem; */
 	height: 100vh;
 	/* background-color: aquamarine; */
-	background-image: url(../images/Titled_Artwork.png);
+	background-image: url(../images/Slide1BG.png);
 	background-color: rgba(0, 0, 0, 0.248);
 }
 
@@ -339,16 +365,6 @@ footer .social-icons img {
 	/* top: calc(3.1rem + 45vh); */
 	height: 100vh;
 	/* background-color: deepskyblue; */
-}
-
-.slide p {
-	background-color: rgba(1, 74, 1, 0.728);
-	margin: 2vw;
-	border-radius: 1vw;
-	/* margin-left: 35vw;
-	margin-right: 10vw; */
-	margin: 10vh 12vw 0 35vw;
-	/* backdrop-filter: blur(5px); */
 }
 
 .counter {
