@@ -109,11 +109,15 @@ const initApp = () => {
 			const heading = article.querySelector("h2");
 			const rect = article.getBoundingClientRect();
 			if (
-				!(rect.top >= 0 && rect.top < windowHeight / 4) &&
-				!(rect.bottom <= windowHeight && rect.bottom >= windowHeight / 4)
+				!(rect.top < windowHeight / 4) ||
+				!(rect.bottom >= windowHeight / 4)
 			) {
 				return;
 			}
+			console.log("windowHeight = " + windowHeight);
+			console.log("windowHeight / 4 = " + windowHeight / 4);
+			console.log("rect.top = " + rect.top);
+			console.log("rect.bottom = " + rect.bottom);
 			titles.forEach((title) => {
 				if (
 					heading.textContent.toLowerCase().trim() !==

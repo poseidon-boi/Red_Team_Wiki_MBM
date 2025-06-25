@@ -60,6 +60,8 @@ main h2 {
 	font-size: 2rem;
 	/* border-bottom: 2px blueviolet solid; */
 	border-bottom: 2px #279f73 solid;
+	margin-top: 0;
+	padding-top: 1.5rem;
 	/* border-radius: 0.7rem; */
 	/* color: rgb(0, 65, 0); */
 }
@@ -74,8 +76,12 @@ main h3 {
 }
 
 article {
-	padding: 0 0 0 vw;
+	padding: 0;
 	margin: 0 1vw;
+}
+
+article > *:last-child {
+	margin-bottom: 0;
 }
 
 p {
@@ -98,6 +104,11 @@ main ol {
 	background-color: aliceblue;
 	color: darkmagenta;
 	margin-bottom: 1rem;
+}
+
+.left img,
+.right img {
+	margin-top: 0;
 }
 
 .left {

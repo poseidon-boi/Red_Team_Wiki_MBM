@@ -373,3 +373,99 @@ footer .social-icons img {
 	text-decoration: underline;
 	color: lightgreen;
 }
+
+.bottom-nav {
+	padding: 0.1rem;
+	background-image: url(../images/Slide1BG.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: rgba(0, 0, 0, 0.248);
+	/* background-color: rgb(75, 58, 91); */
+	/* border-bottom: 1px white solid; */
+}
+
+.bottom-nav ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 2vw 5vw;
+	list-style-type: none;
+	padding: 0;
+}
+
+.bottom-nav a {
+	/* display: inline-block; */
+	text-decoration: none;
+	/* color: gold; */
+	color: #d6bd98;
+	/* background-color: blueviolet; */
+	/* padding: 1rem; */
+	/* box-sizing: border-box; */
+	/* border: 3px rgb(52, 40, 63) solid; */
+	/* border: 3px black solid; */
+	display: flex;
+	align-items: center;
+	transition-property: color;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.box {
+	/* background-color: blueviolet; */
+	background-color: #1a3636;
+	/* height: 60px; */
+	padding: 1.22rem;
+	/* border-radius: 3px; */
+	text-wrap: nowrap;
+}
+
+.left-arrow,
+.right-arrow {
+	width: 0;
+	height: 0;
+	border-top: 2rem solid transparent;
+	border-bottom: 2rem solid transparent;
+}
+
+.left-arrow {
+	/* border-right: 2rem solid blueviolet; */
+	border-right: 2rem solid #1a3636;
+}
+
+.right-arrow {
+	/* border-left: 2rem solid blueviolet; */
+	border-left: 2rem solid #1a3636;
+}
+
+.bottom-nav a:hover {
+	/* border: 3px blueviolet solid; */
+	/* box-shadow: 0 0 10px blueviolet; */
+	color: aquamarine;
+	transition-property: color;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.bottom-nav ul li {
+	display: inline-block;
+}
+
+.bottom-nav h3 {
+	/* color: white; */
+	font-size: 1.8rem;
+	margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+	.bottom-nav ul {
+		padding: 0;
+		/* margin: 1vw; */
+		flex-direction: column;
+		align-items: center;
+		/* justify-content: space-evenly; */
+	}
+
+	.bottom-nav a {
+		margin: 1vw 0;
+	}
+}
