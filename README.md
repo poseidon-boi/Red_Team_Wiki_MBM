@@ -4,4 +4,4 @@ This repository contains the code for the wiki of the Science and Pepper project
 
 ### Website
 
-[varshith2101.github.io/Red_Team/](https://varshith2101.github.io/Red_Team/)
+[redteamwiki.vercel.app](https://redteamwiki.vercel.app)
